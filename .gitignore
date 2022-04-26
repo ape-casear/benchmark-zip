@@ -1,0 +1,15 @@
+build/
+node_modules/
+Debug/
+Release/
+*.lock
+*.log
+package-lock.json
+npm-debug.log*
+temp/
+tmp/
+
+.idea/
+.vscode/
+.DS_Store
+

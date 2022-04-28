@@ -10,7 +10,7 @@ async function run() {
     console.time('load data')
     const fileBufs = fs.readFileSync('./smallZip.zip')
     console.timeEnd('load data')
-    let count = 8
+    let count = 6
     // const fileBufs = await get('')
 
     console.time(`C++插件解压${count}次\t`)

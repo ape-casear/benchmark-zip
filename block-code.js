@@ -8,8 +8,10 @@ setTimeout(() => {
 }, 50)
 
 let i = 100000000
+let reps = 0
 console.time('while cost')
 while (i-- > 0) {
-    bitOpe(1678, 15846)
+    reps += bitOpe(1678, 15846)
 }
 console.timeEnd('while cost')
+console.log(`reps:${reps}`)
